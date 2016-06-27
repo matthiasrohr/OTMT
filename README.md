@@ -4,7 +4,7 @@ The aim of this site is to provide guidance around <a href="http://aka.ms/tmt201
 
 This site was created as part of an talk of Matthias Rohr at OWASP AppSec EU 2016.
 
-Useful URLs:
+<b>Useful URLs:</b>
 - Download: http://aka.ms/tmt2016
 - CommunityUrl: http://social.msdn.microsoft.com/Forums/en-US/sdlprocess/threads
 - SdlUrl: http://www.microsoft.com/security/sdl
