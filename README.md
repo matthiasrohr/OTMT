@@ -1,4 +1,4 @@
-# Open Threat Modeling Template
+# Open Threat Modeling Templates
 
 The aim of this site is to provide guidance around <a href="http://aka.ms/tmt2016">Microsofts Threat Modeling Tool</a> and to share templates and models. Threat Modeling Tool is a free windows based tool that can be used within a threat modeling activity. As of version 2016, is offers strong customization capability allowing to map your own threat logic and stencils to it.
 
