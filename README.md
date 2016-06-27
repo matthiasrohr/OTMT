@@ -16,11 +16,6 @@ Assingning a new Templates to a Model:
 Each threat model has its own template (.tm7 file) assigned to it via a unique id. Unfortunately this ID cannot be changed from within the tool itself. To adapt a new template to an existing model you therefore need to change the template ID manually by opening the file within a text editor. Lukily, both template and model are XML based.
 
 Here, search for the manifest tag and change ID and name from the template file to it, e.g.:
-<a:Manifest>
-  <a:Author>MROHR-PC\mrohr</a:Author>
-  <a:Id>aef9fb95-2bd6-4f3b-8325-62e83d6ccaa2</a:Id>
-  <a:Name>Secodis Web Plain</a:Name>
-  <a:Version>1.0.0.227</a:Version>
-</a:Manifest>
+&lt;a:Manifest&gt; &lt;a:Author&gt;MROHR-PC\mrohr&lt;/a:Author&gt; &lt;a:Id&gt;aef9fb95-2bd6-4f3b-8325-62e83d6ccaa2&lt;/a:Id&gt; &lt;a:Name&gt;Secodis Web Plain&lt;/a:Name&gt; &lt;a:Version&gt;1.0.0.227&lt;/a:Version&gt; &lt;/a:Manifest&gt;
 
 Finally, open the template in the tool and apply the model manually via "File -> Apply Template"
