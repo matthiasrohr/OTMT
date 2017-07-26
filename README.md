@@ -13,9 +13,10 @@ This site was created as part of an talk of Matthias Rohr at OWASP AppSec EU 201
 
 <b>Assingning a new Templates to a Model:</b>
 
-Each threat model has its own template (.tm7 file) assigned to it via a unique id. Unfortunately this ID cannot be changed from within the tool itself. To adapt a new template to an existing model you therefore need to change the template ID manually by opening the file within a text editor. Lukily, both template and model are XML based.
+Each threat model has its own template (.tm7 file) assigned to it via a unique id. Unfortunately this ID cannot be changed from within the tool itself. To adapt a new template to an existing model you therefore need to change the template ID manually by opening the file within a text editor. Luckily, both template and model are XML based.
 
-Here, search for the manifest tag and change ID and name from the template file to it, e.g.:
+In the model, search for the manifest tag and change ID and Name to match the values as in the template file. Furthermore, change the Version to a value lower than the one in the template file.
+For example, if the current version in the template file [secodis web plain.tb7](https://github.com/matthiasrohr/OTMT/blob/master/secodis%20web%20plain.tb7) is 1.0.0.228, set the following values in the model:
 ```xml
 <a:Manifest>
    <a:Author>...</a:Author>
@@ -25,4 +26,5 @@ Here, search for the manifest tag and change ID and name from the template file 
 </a:Manifest>
 ```
 
-Finally, open the template in the tool and apply the model manually via "File -> Apply Template"
+Finally, open the model in the Microsoft Threat Modeling tool.
+The tool may now detect that a new version of the template is available and directly ask you to update to the new version. If this is not the case, apply the model manually via "File -> Apply Template".
