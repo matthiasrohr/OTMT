@@ -11,9 +11,9 @@ This site was created as part of an talk of Matthias Rohr at OWASP AppSec EU 201
 - TwCBlog: http://blogs.technet.com/b/trustworthycomputing
 - MsdnForums: http://social.msdn.microsoft.com/Forums/en-US/home?forum=sdlprocess
 
-<b>Assingning a new Templates to a Model:</b>
+<b>Assigning a new Templates to a Model:</b>
 
-Each threat model has its own template (.tm7 file) assigned to it via a unique id. Unfortunately this ID cannot be changed from within the tool itself. To adapt a new template to an existing model you therefore need to change the template ID manually by opening the file within a text editor. Lukily, both template and model are XML based.
+Each threat model has its own template (.tm7 file) assigned to it via a unique id. Unfortunately this ID cannot be changed from within the tool itself. To adapt a new template to an existing model you therefore need to change the template ID manually by opening the file within a text editor. Luckily, both template and model are XML based.
 
 Here, search for the manifest tag and change ID and name from the template file to it, e.g.:
 ```xml
